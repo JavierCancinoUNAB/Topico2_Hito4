@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────────────
+# Dependencias - Asistente RAG de Soporte Técnico
+# Asignatura: IA Embebida en Sistemas Computacionales
+# ─────────────────────────────────────────────────────
+
+# Base vectorial
+chromadb>=0.4.22
+
+# Modelo de embeddings (Sentence Transformers)
+sentence-transformers>=2.6.1
+
+# Transformers y utilidades de ML
+torch>=2.0.0
+transformers>=4.38.0
+huggingface-hub>=0.21.0
+
+# Cliente HTTP para Ollama
+requests>=2.31.0
+
+# Procesamiento de documentos PDF (opcional)
+# Descomenta si usarás documentos PDF:
+# PyMuPDF>=1.23.0
+
+# Utilidades
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# ─────────────────────────────────────────────────────
+# Notas de instalación:
+#
+# 1. Crear entorno virtual:
+#    python -m venv venv
+#    source venv/bin/activate        (Linux/Mac)
+#    venv\Scripts\activate           (Windows)
+#
+# 2. Instalar dependencias:
+#    pip install -r requirements.txt
+#
+# 3. Instalar Ollama desde: https://ollama.ai/download
+#
+# 4. Descargar modelo LLM (elegir uno):
+#    ollama pull mistral     (recomendado, 4.1GB)
+#    ollama pull llama3      (7B, 4.7GB)
+#    ollama pull gemma       (7B, 5.0GB)
+# ─────────────────────────────────────────────────────
